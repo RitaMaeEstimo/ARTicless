@@ -7,6 +7,7 @@ import { getInitials } from '@/lib/helpers';
 
 const NAV = [
   { href: '/dashboard', label: 'Overview', icon: '\u25C9', exact: true },
+  { href: '/dashboard/publish', label: 'Publish', icon: '\u270E' },
   { href: '/dashboard/browse', label: 'Browse Articles', icon: '\u25A4' },
   { href: '/dashboard/top-liked', label: 'Top Liked', icon: '\u2665' },
   { href: '/dashboard/settings', label: 'Settings', icon: '\u2699' },
